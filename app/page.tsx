@@ -351,7 +351,7 @@ export default function Home() {
                       className="h-10 w-auto flex-shrink-0"
                   />
                   <div className="flex flex-col min-w-0 whitespace-nowrap">
-                    <div className="text-[10px] sm:text-xs leading-tight truncate">Download on the</div>
+                    <div className="text-[10px] sm:text-xs leading-tight truncate">Pre-Register on</div>
                     <div className="font-semibold text-xs sm:text-sm leading-tight truncate">App Store</div>
                   </div>
                 </motion.a>
@@ -369,7 +369,7 @@ export default function Home() {
                       className="h-10 w-auto flex-shrink-0"
                   />
                   <div className="flex flex-col min-w-0 whitespace-nowrap">
-                    <div className="text-[10px] sm:text-xs leading-tight truncate">Get it on</div>
+                    <div className="text-[10px] sm:text-xs leading-tight truncate">Pre-Register on</div>
                     <div className="font-semibold text-xs sm:text-sm leading-tight truncate">Google Play</div>
                   </div>
                 </motion.a>
