@@ -669,9 +669,6 @@ export default function Home() {
                   {t("footer.howItWorks")}
                 </a>
                 <a href="#" className="text-gray-600 hover:text-[#1E4DB7]">
-                  {t("footer.contact")}
-                </a>
-                <a href="#" className="text-gray-600 hover:text-[#1E4DB7]">
                   {t("footer.privacy")}
                 </a>
                 <a href="#" className="text-gray-600 hover:text-[#1E4DB7]">
