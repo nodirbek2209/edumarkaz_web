@@ -659,7 +659,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-wrap justify-center gap-6">
-                <a href="#about us" className="text-gray-600 hover:text-[#1E4DB7]">
+                <a href="#about" className="text-gray-600 hover:text-[#1E4DB7]">
                   {t("footer.about")}
                 </a>
                 <a href="#features" className="text-gray-600 hover:text-[#1E4DB7]">
