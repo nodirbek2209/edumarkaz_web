@@ -171,7 +171,74 @@ export default function DeleteAccountPage() {
 
                         {/* Contact Information */}
                         <div className="mb-8">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">How to Request Account Deletion</h2>
+                            <h2 className="text-2xl font-bold text-gray-900 mb-4">How to Delete Your Account</h2>
+
+                            <div className="mb-8">
+                                <h3 className="text-xl font-semibold text-gray-900 mb-4">📱 Option 1: Mobile App (Recommended)</h3>
+                                <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
+                                    <div className="flex items-start">
+                                        <svg
+                                            className="h-6 w-6 text-green-600 mt-1 mr-3"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke="currentColor"
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={2}
+                                                d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                                            />
+                                        </svg>
+                                        <div>
+                                            <h4 className="font-semibold text-green-800 mb-3">✅ Self-Service Account Deletion</h4>
+                                            <p className="text-green-700 mb-4">
+                                                You can delete your account directly through the EduMarkaz mobile app:
+                                            </p>
+
+                                            <div className="bg-white p-4 rounded-lg mb-4">
+                                                <h5 className="font-semibold text-gray-900 mb-2">📍 Navigation Path:</h5>
+                                                <div className="flex items-center space-x-2 text-gray-700">
+                                                    <span className="bg-blue-100 px-2 py-1 rounded text-sm">Profile</span>
+                                                    <span>→</span>
+                                                    <span className="bg-blue-100 px-2 py-1 rounded text-sm">Settings</span>
+                                                    <span>→</span>
+                                                    <span className="bg-red-100 px-2 py-1 rounded text-sm">Delete Account</span>
+                                                </div>
+                                            </div>
+
+                                            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+                                                <h5 className="font-semibold text-yellow-800 mb-2">🔐 Security Verification</h5>
+                                                <p className="text-yellow-700">
+                                                    You'll need to enter your phone number correctly as confirmation to proceed with deletion.
+                                                </p>
+                                            </div>
+
+                                            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                                                <h5 className="font-semibold text-blue-800 mb-2">🔄 Soft Delete with Recovery Option</h5>
+                                                <ul className="text-blue-700 space-y-2">
+                                                    <li>
+                                                        • <strong>30-Day Recovery Period:</strong> You can recover your account within the next
+                                                        month
+                                                    </li>
+                                                    <li>
+                                                        • <strong>Hidden Profile:</strong> Your information becomes invisible to other users
+                                                        immediately
+                                                    </li>
+                                                    <li>
+                                                        • <strong>Education Centers:</strong> All your courses become inactive during soft delete
+                                                    </li>
+                                                    <li>
+                                                        • <strong>Complete Removal:</strong> After 30 days, deletion becomes permanent
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3 className="text-xl font-semibold text-gray-900 mb-4">📞 Option 2: Contact Support Team</h3>
                             <div className="bg-orange-50 border-l-4 border-orange-500 p-6 mb-6">
                                 <div className="flex items-start">
                                     <svg
@@ -188,7 +255,7 @@ export default function DeleteAccountPage() {
                                         />
                                     </svg>
                                     <div>
-                                        <h3 className="text-lg font-semibold text-orange-800 mb-2">⚠️ No Automated Deletion Process</h3>
+                                        <h4 className="font-semibold text-orange-800 mb-2">⚠️ No Automated Deletion Process</h4>
                                         <p className="text-orange-700">
                                             <strong>There is no automatic account deletion feature.</strong> You must contact our development
                                             team directly via email or Telegram to request account deletion.
