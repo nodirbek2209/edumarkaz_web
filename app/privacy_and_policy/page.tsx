@@ -3,8 +3,8 @@ import Link from "next/link"
 import { ArrowLeft, Shield, Eye, Lock, Users, FileText, Mail } from "lucide-react"
 
 export const metadata: Metadata = {
-    title: "Privacy Policy - Edu-markaz",
-    description: "Privacy Policy for Edu-markaz educational platform",
+    title: "Privacy Policy - EduMarkaz",
+    description: "Privacy Policy for EduMarkaz educational platform",
 }
 
 export default function PrivacyPolicyPage() {
