@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
                             <h2 className="text-2xl font-semibold text-gray-900">Introduction</h2>
                         </div>
                         <p className="text-gray-700 leading-relaxed">
-                            Welcome to Edu-markaz ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the
+                            Welcome to EduMarkaz. We are committed to protecting your privacy and ensuring the
                             security of your personal information. This Privacy Policy explains how we collect, use, disclose, and
                             safeguard your information when you use our educational platform and services.
                         </p>
