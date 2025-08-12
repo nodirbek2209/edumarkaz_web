@@ -188,7 +188,7 @@ export default function PrivacyPolicyPage() {
                         </p>
                         <div className="space-y-2 text-gray-700">
                             <p>
-                                <strong>Email:</strong> privacy@edumarkaz.software
+                                <strong>Email:</strong> support@edumarkaz.software
                             </p>
                             <p>
                                 <strong>Website:</strong> www.edumarkaz.software
