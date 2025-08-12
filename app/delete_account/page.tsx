@@ -319,6 +319,9 @@ export default function DeleteAccountPage() {
                             </div>
                         </div>
 
+
+
+
                         {/* Action Buttons */}
                         {/*<div className="flex flex-col sm:flex-row gap-4 justify-center">*/}
                         {/*    <button className="bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors">*/}
