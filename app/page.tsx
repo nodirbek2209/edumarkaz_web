@@ -22,7 +22,7 @@ import { AppScreensCollage } from "@/components/app-screens-collage"
 import { LanguageSelector } from "@/components/language-selector"
 import { useLanguage } from "@/components/language-context"
 import { StatsCounter } from "@/components/stats-counter"
-import Footer from "@/components/footer"
+import Footer from "@/components/footer";
 
 export default function Home() {
   const { t } = useLanguage()
@@ -426,19 +426,6 @@ export default function Home() {
             </motion.div>
 
             <AppScreensCollage inView={appScreensInView} />
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={appScreensInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-                className="mt-16 text-center"
-            >
-              <h3 className="text-3xl md:text-4xl font-bold text-[#1E4DB7] mb-4">
-                Our plan for 2026
-              </h3>
-              <p className="text-lg text-gray-600 mb-8">
-                We're aiming to connect over <span className="font-semibold text-[#1E4DB7]">500+ Education Centers</span> and <span className="font-semibold text-[#1E4DB7]">2000+ Teachers</span> to empower learners across the country.
-              </p>
-            </motion.div>
 
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -666,7 +653,6 @@ export default function Home() {
 
         {/* Footer */}
         <Footer/>
-
       </main>
   )
 }
