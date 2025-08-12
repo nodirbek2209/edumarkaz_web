@@ -25,7 +25,7 @@ const Footer = () => {
                         <a href="/privacy_and_policy" className="text-gray-600 hover:text-[#1E4DB7]">
                             {t("footer.privacy")}
                         </a>
-                        <a href="#" className="text-gray-600 hover:text-[#1E4DB7]">
+                        <a href="/terms_of_service" className="text-gray-600 hover:text-[#1E4DB7]">
                             {t("footer.terms")}
                         </a>
                     </div>
