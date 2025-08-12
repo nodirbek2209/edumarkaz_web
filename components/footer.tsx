@@ -28,6 +28,9 @@ const Footer = () => {
                         <a href="/terms_of_service" className="text-gray-600 hover:text-[#1E4DB7]">
                             {t("footer.terms")}
                         </a>
+                        <a href="/delete_account" className="text-gray-600 hover:text-[#1E4DB7]">
+                            {t("footer.delete")}
+                        </a>
                     </div>
                 </div>
 

@@ -496,4 +496,11 @@ export const translations: Translations = {
     uz: "Biz bilan bog'laning:",
     ru: "Свяжитесь с нами:",
   },
+  "footer.delete": {
+    "en": "Delete account",
+    "uz": "Hisobni o‘chirish",
+    "ru": "Удалить аккаунт"
+  }
+
+
 }
