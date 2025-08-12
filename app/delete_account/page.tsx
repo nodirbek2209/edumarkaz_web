@@ -301,7 +301,7 @@ export default function DeleteAccountPage() {
                                     <h3 className="font-semibold text-gray-900 mb-2">📧 Email Support</h3>
                                     <p className="text-gray-700">
                                         Send your deletion request to:{" "}
-                                        <a href="mailto:info@edumarkaz.software" className="text-blue-600 hover:underline font-semibold">
+                                        <a href="mailto:support@edumarkaz.software" className="text-blue-600 hover:underline font-semibold">
                                             info@edumarkaz.software
                                         </a>
                                     </p>
