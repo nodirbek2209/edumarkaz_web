@@ -193,9 +193,9 @@ export default function PrivacyPolicyPage() {
                             <p>
                                 <strong>Website:</strong> www.edumarkaz.software
                             </p>
-                            <p>
-                                <strong>Address:</strong> Edu-markaz Educational Platform
-                            </p>
+                            {/*<p>*/}
+                            {/*    <strong>Address:</strong> No headquarters*/}
+                            {/*</p>*/}
                         </div>
                     </section>
                 </div>
