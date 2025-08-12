@@ -32,7 +32,7 @@ export const translations: Translations = {
   // Hero section
   "hero.title": {
     en: "Your Guide to Quality Education",
-    uz: "Sifatli ta'lim uchun yo'riqnoma",
+    uz: "Sifatli ta'lim uchun sizning qadamingiz",
     ru: "Ваш гид по качественному образованию",
   },
   "hero.subtitle": {
@@ -151,7 +151,7 @@ export const translations: Translations = {
   },
   "problem.unknowns.description": {
     en: "Hard to evaluate quality of teaching or legitimacy of centers",
-    uz: "O'qitish sifatini yoki markazlarning qonuniyligini baholash qiyin",
+    uz: "O'qitish sifatini yoki markazlarning qonuniyligini baholash qiyinmi?",
     ru: "Трудно оценить качество преподавания или легитимность центров",
   },
   "problem.transparency.title": {
