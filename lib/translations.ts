@@ -106,6 +106,7 @@ export const translations: Translations = {
     en: "Discover",
     uz: "Kashf qilish",
     ru: "Открывать",
+
   },
   "appScreens.discover.subtitle": {
     en: "Explore a wide range of trusted education centers",
