@@ -340,26 +340,26 @@ export default function Home() {
               {/* Download buttons */}
               <div className="flex flex-row justify-center gap-4 mt-6 flex-wrap sm:flex-nowrap">
                 {/* App Store */}
-                <motion.a
-                    href="#"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="flex items-center gap-3 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-lg border border-white/20 min-w-0"
-                >
-                  <img
-                      src="/images/app_store.png"
-                      alt="App Store Badge"
-                      className="h-10 w-auto flex-shrink-0"
-                  />
-                  <div className="flex flex-col min-w-0 whitespace-nowrap">
-                    <div className="text-[10px] sm:text-xs leading-tight truncate">Pre-Register on</div>
-                    <div className="font-semibold text-xs sm:text-sm leading-tight truncate">App Store</div>
-                  </div>
-                </motion.a>
+                {/*<motion.a*/}
+                {/*    href="#"*/}
+                {/*    whileHover={{ scale: 1.05 }}*/}
+                {/*    whileTap={{ scale: 0.95 }}*/}
+                {/*    className="flex items-center gap-3 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-lg border border-white/20 min-w-0"*/}
+                {/*>*/}
+                {/*  <img*/}
+                {/*      src="/images/app_store.png"*/}
+                {/*      alt="App Store Badge"*/}
+                {/*      className="h-10 w-auto flex-shrink-0"*/}
+                {/*  />*/}
+                {/*  <div className="flex flex-col min-w-0 whitespace-nowrap">*/}
+                {/*    <div className="text-[10px] sm:text-xs leading-tight truncate">Pre-Register on</div>*/}
+                {/*    <div className="font-semibold text-xs sm:text-sm leading-tight truncate">App Store</div>*/}
+                {/*  </div>*/}
+                {/*</motion.a>*/}
 
                 {/* Google Play */}
                 <motion.a
-                    href="#"
+                    href="https://play.google.com/store/apps/details?id=com.edumarkaz.mobile&hl=uz"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="flex items-center gap-3 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-lg border border-white/20 min-w-0"
